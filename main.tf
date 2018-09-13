@@ -6,5 +6,5 @@ module "cap_ec2" {
   source = "github.com/sullivac/terraform-module-ec2"
 
   name = ""
-  userdata = "${file(userdata.ps1)}"
+  user_data = "${file("userdata.ps1")}"
 }
